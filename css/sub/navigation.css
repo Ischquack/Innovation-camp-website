@@ -4,6 +4,10 @@
     align-items: center;
 }
 
+.navigation img {
+    width: 200px;
+}
+
 .logo {
     padding: 1rem 2rem;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
