@@ -17,20 +17,15 @@
     box-sizing: border-box;
 }
 
-h2 {
-    font-family: 'Roboto';
-    font-size: 1.8rem;
-}
-
 .mainContainer p {
     font-size: 1.5rem;
     line-height: 1.6em;
 }
 
 .mainContent p a{
-        text-decoration: underline;
-        color: black;
-        font-style: italic;
+    text-decoration: underline;
+    color: black;
+    font-style: italic;
 }
 
 .space {
