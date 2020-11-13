@@ -1,4 +1,4 @@
-.aboutContent {
+.dummyContent {
     flex-basis: 100%;
     min-width: 300px;
     flex-grow: 1;
@@ -7,10 +7,10 @@
     box-sizing: border-box;
 }
 
-.aboutContent h2 {
+.dummyContent h2 {
     text-align: center;
 }
 
-.aboutContent p {
+.dummyContent p {
     text-align: left;
 }
