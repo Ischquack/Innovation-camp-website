@@ -1,6 +1,7 @@
 body {
     margin: auto;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(32, 32, 223);
 }
 
 h1 {
@@ -14,4 +15,22 @@ h1 {
 h2 {
     font-family: 'Roboto';
     font-size: 1.8rem;
+    font-style: italic;
+}
+
+.dummyContent {
+    flex-basis: 100%;
+    min-width: 300px;
+    flex-grow: 1;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    box-sizing: border-box;
+}
+
+.dummyContent h2 {
+    text-align: center;
+}
+
+.dummyContent p {
+    text-align: left;
 }
