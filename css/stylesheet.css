@@ -1,0 +1,233 @@
+/* Global */
+
+body {
+    margin: auto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(32, 32, 223);
+}
+
+h1 {
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 300;
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+
+h2 {
+    font-family: 'Roboto';
+    font-size: 1.8rem;
+    font-style: italic;
+}
+
+.dummyContent {
+    flex-basis: 100%;
+    min-width: 300px;
+    flex-grow: 1;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    box-sizing: border-box;
+}
+
+.dummyContent h2 {
+    text-align: center;
+}
+
+.dummyContent p {
+    text-align: left;
+}
+
+/* Main content */
+
+.mainContainer {
+    display: flex;
+    width: 100%;
+    max-width: 1300px;
+    margin: auto;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    flex-wrap: wrap;    
+}
+
+.mainContent{
+    min-width: 300px;
+    flex-grow: 1;
+    flex-basis: 50%;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-flow: column wrap;
+    height: 500px;
+}
+
+.mainContainer p {
+    font-size: 1.5rem;
+    line-height: 1.6em;
+}
+
+#appInterface {
+    width: 250px;
+    border-radius: 30px;
+}
+
+#statistics {
+    width: 600px;
+    height: 300px;
+    border-radius: 10px;
+    border: 1px solid;
+}
+
+@media only screen and (max-width:950px){
+    .mainContent{
+        flex-basis: 100%;
+    }
+}
+
+/* Navigation */
+
+.navigation {
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+.navigation img {
+    width: 200px;
+}
+
+.logo {
+    padding: 1rem 2rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 2rem;
+    justify-self: flex-start;
+    margin-right: 5rem;
+}
+
+nav {
+    width: 100%;
+}
+
+nav ul {    
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+}
+
+nav li {
+    list-style: none;
+    position: relative;
+    right: 5rem;
+}
+
+nav a {
+    display: inline-block;
+    padding: 1rem;
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 0.9rem;
+    letter-spacing: 0.10em;
+    text-transform: uppercase;
+    color: rgb(32, 32, 223);
+}
+
+.logo a {
+    text-decoration: none;
+    color: black;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+footer h2 {
+    font-style: initial;
+}
+
+/* Hero */
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    background-color: #ff95df;
+    font-family: Roboto;
+    height: 20rem;
+}
+
+h1 {
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 300;
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+
+.callToAction {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 300;
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+
+header a {
+    font-weight: bold;
+    color: black;
+}
+
+/* Footer */
+
+footer {
+    width: 100%;
+    background-color: rgb(32, 32, 223);
+    color: white;
+}
+
+footer h2 {
+    font-weight: 300;
+    font-size: 2rem;
+    padding-top: 32px;
+    padding-bottom: 10px;
+    margin: auto;
+    text-align: center;
+}
+
+.contactInfo {
+    display: flex;
+    margin: auto;
+    max-width: 1300px;
+    justify-content: space-around;
+}
+
+.contactSection {
+    display: flex;
+    padding: 25px 0 50px 0;
+}
+
+.contactAtribute {
+    padding-right: 18px;
+}
+
+@media only screen and (max-width: 950px){
+    .contactInfo {
+        flex-direction: column;
+        text-align: center;
+    }
+    .contactSection {
+        flex-direction: column; 
+        padding: 20px 0 30px 0;
+    }
+    .contactAtribute {
+        padding-right: 0;
+    }
+}

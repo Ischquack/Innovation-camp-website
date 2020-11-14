@@ -1,0 +1,47 @@
+.mainContainer {
+    display: flex;
+    width: 100%;
+    max-width: 1300px;
+    margin: auto;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    flex-wrap: wrap;    
+}
+
+.mainContent{
+    min-width: 300px;
+    flex-grow: 1;
+    flex-basis: 50%;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-flow: column wrap;
+    height: 500px;
+}
+
+.mainContainer p {
+    font-size: 1.5rem;
+    line-height: 1.6em;
+}
+
+#appInterface {
+    width: 250px;
+    border-radius: 30px;
+}
+
+#statistics {
+    width: 600px;
+    height: 300px;
+    border-radius: 10px;
+    border: 1px solid;
+}
+
+@media only screen and (max-width:950px){
+    .mainContent{
+        flex-basis: 100%;
+    }
+}
